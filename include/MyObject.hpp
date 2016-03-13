@@ -24,7 +24,6 @@ private:
   void setAge(short age);
   string getEmail();
   void setEmail(string email);
-
   void setAllFields(string name, string surname,
 		    short age, string email);
 
