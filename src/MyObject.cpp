@@ -39,4 +39,9 @@ void MyObject::setAllFields(string name, string surname,
   setAge(age);
   setEmail(email);
 }
-  
+void MyObject::show() {
+  cout << "Name: " << m_name << endl;
+  cout << "Surname: " << m_surname << endl;
+  cout << "Age: " << m_age << endl;
+  cout << "Email: " << m_email << endl;
+}

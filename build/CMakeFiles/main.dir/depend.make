@@ -4,5 +4,6 @@
 CMakeFiles/main.dir/src/MyObject.cpp.o: ../include/MyObject.hpp
 CMakeFiles/main.dir/src/MyObject.cpp.o: ../src/MyObject.cpp
 
+CMakeFiles/main.dir/src/main.cpp.o: ../include/MyObject.hpp
 CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp
 

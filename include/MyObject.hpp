@@ -13,7 +13,7 @@ private:
   short m_age;
   string m_email;
   bool m_is_new;
-private:
+public:
   MyObject();
   ~MyObject();
   string getName();
@@ -26,7 +26,7 @@ private:
   void setEmail(string email);
   void setAllFields(string name, string surname,
 		    short age, string email);
-
+  void show();
 };
 
 #endif
