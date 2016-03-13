@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eiger824/Programming/FirstProject/include/MyObject.hpp
+iostream
+-
+string.h
+-
+string
+-
+
+/home/eiger824/Programming/FirstProject/src/MyObject.cpp
+string
+-
+../include/MyObject.hpp
+/home/eiger824/Programming/FirstProject/include/MyObject.hpp
+
+/home/eiger824/Programming/FirstProject/src/main.cpp
+iostream
+-
+string.h
+-
+
